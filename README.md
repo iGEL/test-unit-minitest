@@ -1,3 +1,4 @@
+[![Build Status](http://img.shields.io/travis/iGEL/test-unit-minitest/master.svg?style=flat)](https://travis-ci.org/iGEL/test-unit-minitest)
 # minitest wrapper for Test::Unit
 
 Between Ruby 1.9 and 2.1, Ruby came with a wrapper around minitest to
