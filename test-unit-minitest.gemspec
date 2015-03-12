@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.email = %w(sorah@tubusu.net igel@igels.net)
 
   s.files = Dir['README.md', 'LICENSE', 'lib/**/*.rb']
+  s.executables = %w(testrb)
 
   s.required_ruby_version = '>= 2.2'
   s.add_dependency('minitest', '~> 4.7')
