@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "test-unit-minitest"
-  s.version = "0.9.0"
+  s.version = "0.9.1"
   s.summary = "test/unit compatible API testing framework"
   s.description =
     "This library implements test/unit compatible API on minitest. " +
@@ -17,6 +17,5 @@ Gem::Specification.new do |s|
   s.files = Dir['README.md', 'LICENSE', 'lib/**/*.rb']
   s.executables = %w(testrb)
 
-  s.required_ruby_version = '>= 2.2'
   s.add_dependency('minitest', '~> 4.7')
 end
